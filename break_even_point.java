@@ -14,9 +14,9 @@ public class break_even_point {
 		if(B==C) {
 			System.out.println("-1");
 		}else {
-				count = (A / (C - B)) + 1;
+				count = (A / (C - B)) + 1; //손익 분기점 공식
 				
-				if(count < 1) {
+				if(count < 1) {//손익 분기점이 안나오면
 					System.out.println("-1");
 				}else {
 					System.out.println(count);
